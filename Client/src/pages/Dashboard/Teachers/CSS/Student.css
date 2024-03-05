@@ -1,0 +1,21 @@
+/* Style for the custom modal title */
+.custom-modal-title {
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-aligned title */
+    margin-bottom: 20px; /* Add space below the title */
+  }
+  
+  /* Style for the strong elements (Roll No, Email, Guide Name) */
+  .custom-modal-strong {
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Style for the modal content */
+  .custom-modal-content {
+    font-size: 16px; /* Adjust the content font size if needed */
+    text-align: center; /* Center-align the content */
+    margin: 20px 0; /* Add space around the content */
+  }
+  

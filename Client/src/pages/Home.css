@@ -1,0 +1,352 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 170vh;
+  background-color: #ffffff;
+  background-size: 1000% ;/* Adjust the background-size */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.home-container i {
+  color: #5c11b9; /* Add color to the icons */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  width: 100%; 
+  height:100%;
+  background-color:  #007BFF;
+}
+
+.logo {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.home-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px; /* Add some margin to create spacing */
+}
+
+
+.content-container {
+  position: relative; /* Make the container relative for positioning pseudo-elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 1511px;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1511' height='404' preserveAspectRatio='none' viewBox='0 0 1511 404'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1145%26quot%3b)' fill='none'%3e%3crect width='1511' height='404' x='0' y='0' fill='rgba(0%2c 123%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c190 C 100.8%2c218.2 302.4%2c362 504%2c331 C 705.6%2c300 806.6%2c55.8 1008%2c35 C 1209.4%2c14.2 1410.4%2c188.6 1511%2c227L1511 404L0 404z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1145'%3e%3crect width='1511' height='404' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/*
+
+.content-background {
+  position: absolute;
+  top: 0;
+  left: 0%; 
+  width: 200%; 
+  height: 100%;
+  background: linear-gradient(to bottom, #a0d5f6da, transparent 50%);
+  transform: translateX(-50%)  skewX(0deg); 
+  transform-origin: top left; 
+}
+*/
+
+.image-container {
+  max-width: 800px;
+  display: flex;
+  margin-left: 50% ;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.oval-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.oval-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.oval-buttons.left {
+  left: -40px; /* Adjust the position to the left */
+}
+
+.oval-buttons.right {
+  right: -40px; /* Adjust the position to the right */
+}
+
+.oval-buttons button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #007bff;
+}
+
+.oval-buttons button.nav-button:hover {
+  color: #007bff; /* Set the desired color for hover */
+  background-color: transparent; /* Remove the background color on hover */
+}
+
+
+
+.oval-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Make the image a circle */
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.oval-image.active {
+  opacity: 1;
+}
+
+.navigation-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.image-description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  font-size: 24px;
+}
+
+.website-info-container {
+  position: absolute;
+  top: 50%;
+  left: 300px; 
+  transform: translateY(-50%);
+  padding: 20px;
+  max-width: 450px;
+  text-align: left;
+  font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+
+.website-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+
+.website-info p {
+  margin: 5px 0; 
+}
+
+.info-heading {
+  font-size: 38px; /* Increase font size for greater impact */
+  font-weight: bold;
+  margin-bottom: 15px; /* Increased margin for better separation */
+  color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  letter-spacing: 1px; /* Slight letter spacing for better visibility */
+}
+
+.info-content {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+
+.info-content a {
+  color: #007bff; /* Set link color to blue */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.info-content a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.services-content {
+  background-image: url('../../public/images/Images/side-wave_background.jpg'); /* Use a relative path */
+  background-size: cover;
+  padding: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  height: auto; 
+  text-align: center;
+}
+
+.get-started-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.get-started-button a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button a i {
+  margin-left: 10px;
+}
+
+.get-started-button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.get-started-button a:hover {
+  background-color: #0056b3;
+}
+
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f0f6fd; /* Light blue background color */
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 48px;
+  color: #2980b9; /* Bright blue color */
+}
+.service-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.contentSer {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding:0%;
+  text-align: center;
+  background-color: #ffffff; /* Light gray background */
+}
+
+.contentSer h2 {
+  font-size: 28px;
+  color: #833ba2;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI';
+}
+
+.contentSer p {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+  font-family:'Segoe UI';
+}
+
+
+.contentSer h2 {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.contentSer {
+  margin-top: 40px;
+}
+
+/* Add a new CSS rule for the larger-text class */
+.larger-text {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #401b5f;
+}
+
+
+
+
+/* Styles for screens with width up to 960px */
+@media screen and (max-width: 960px) {
+  .home-container {
+    padding: 10px; /* Reduce the padding for smaller screens */
+  }
+
+  .content-container {
+    flex-direction: column; /* Change to column to stack elements vertically */
+    align-items: center; /* Align elements to the center */
+  }
+
+  .website-info-container {
+    left: 20px; /* Adjust the left value to move it closer to the left side */
+    width: auto; /* Remove the fixed width to make it responsive */
+    max-width: 100%; /* Ensure the container takes the full width on smaller screens */
+  }
+}

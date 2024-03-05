@@ -1,0 +1,44 @@
+/* Custom CSS for menu items */
+.custom-menu-item {
+    color: black; /* Set the text color to black for all items */
+    background-color: transparent; /* Make the background transparent for all items */
+  }
+  
+  /* Optionally, you can style other properties like hover color */
+  .custom-menu-item:hover {
+    background-color: #f0f0f0; /* Change the background color on hover for all items */
+    color: black; /* Change the text color on hover for all items */
+  }
+  
+  /* CustomMenu.css */
+
+/* Style for the container holding the avatar and user details */
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0; /* Increase padding at the top */
+}
+
+/* Style for the avatar */
+.user-avatar {
+  font-size: 36px; /* Increase avatar size */
+}
+
+/* Style for the user details (name and role) */
+.user-details {
+  text-align: center; /* Center text below the avatar */
+}
+
+/* Style for the user's name */
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px; /* Add some spacing between name and role */
+}
+
+/* Style for the user's role */
+.user-role {
+  font-size: 14px;
+  color: #888;
+}

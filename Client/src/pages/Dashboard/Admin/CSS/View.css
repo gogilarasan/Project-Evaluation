@@ -1,0 +1,112 @@
+
+  .view-content {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    padding: 60px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  .role-counts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .role-count {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .role-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .role-logo {
+    font-size: 36px;
+    margin-bottom: 8px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .student-logo {
+    color: #0066ff;
+    background-color: #e6f2ff;
+  }
+  
+  .teacher-logo {
+    color: #00cc66;
+    background-color: #e6ffe6;
+  }
+  
+  .guide-logo {
+    color: #ff9933;
+    background-color: #fff0e6;
+  }
+  
+  .count {
+    font-size: 18px;
+  }

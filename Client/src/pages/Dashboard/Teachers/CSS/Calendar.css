@@ -1,0 +1,222 @@
+/* Calendar.css */
+
+.event {
+  padding: 4px;
+  margin: 2px;
+  background-color: #e6e6e6; /* Event background color */
+  cursor: pointer;
+}
+
+.slot {
+  padding: 4px;
+  margin: 2px;
+  background-color: #b2e0b2; /* Slot background color */
+  cursor: pointer;
+}
+
+
+/* Calendar Header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  background-color: #3174ad; /* Header background color */
+  color: white; /* Header text color */
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/* Calendar Title */
+.calendar-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Calendar Display Type Dropdown */
+.ant-select-selection {
+  width: 120px;
+}
+
+/* Calendar Event Container */
+.full-calendar-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  background-color: white; /* Calendar background color */
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Day Cell with Scrollable Events */
+.rbc-day-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Scrollbar for Day Cell */
+.rbc-day-bg::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Scrollbar Thumb for Day Cell */
+.rbc-day-bg::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* Scrollbar Thumb Hover for Day Cell */
+.rbc-day-bg::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Event Styles */
+.rbc-event.event {
+  background-color: #e6e6e6; /* Event background color */
+  color: #333; /* Event text color */
+  border: 1px solid #ccc; /* Event border color */
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+/* Slot Styles */
+.rbc-event.slot {
+  background-color: #b2e0b2; /* Slot background color */
+  color: #333; /* Slot text color */
+  border: 1px solid #7fc97f; /* Slot border color */
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+/* Hover Styles for Events and Slots */
+.rbc-event.event:hover,
+.rbc-event.slot:hover {
+  background-color: #ccc; /* Hover background color */
+}
+
+/* Event in Day Cell */
+.rbc-event {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 2px 4px;
+  margin: 1px 0;
+  cursor: pointer;
+}
+
+/* Tooltip for Event */
+.rbc-event-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* More Link in Day Cell */
+.rbc-show-more {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 2px;
+}
+
+/* Event and Slot Styling */
+.rbc-event.event {
+  background-color: #3174ad; /* Event background color */
+  color: white; /* Event text color */
+}
+
+.rbc-event.slot {
+  background-color: #f0ad4e; /* Slot background color */
+  color: black; /* Slot text color */
+}
+
+/* Modal Styling */
+.ant-modal {
+  font-family: Arial, sans-serif;
+  background-color: white; /* Background color for the modal */
+  border: 1px solid #ccc; /* Border for the modal */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for the modal */
+}
+
+.ant-modal-content {
+  border-radius: 4px;
+}
+
+.ant-modal-header {
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  background-color: #3174ad; /* Modal header background color */
+  color: white; /* Modal header text color */
+}
+
+.ant-modal-title {
+  font-size: 20px;
+}
+
+.ant-modal-body {
+  padding: 20px;
+  background-color: white; /* Background color for the modal body */
+}
+
+.ant-modal-footer {
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  padding: 10px 20px;
+  text-align: right;
+  background-color: white; /* Background color for the modal footer */
+}
+
+/* Event Modal Styling */
+.event-modal .ant-modal-header {
+  background-color: #8b2bb9; /* Purple background color for Event Modal header */
+}
+
+.event-modal .ant-modal-body {
+  background-color: #e6e6e6; /* Event Modal body background color */
+}
+
+.event-modal .ant-btn-danger {
+  background-color: #8b2bb9; /* Purple background color for Event Delete button */
+  border-color: #8b2bb9; /* Purple border color for Event Delete button */
+  color: white; /* Text color for Event Delete button */
+}
+
+.event-modal .ant-btn-danger:hover {
+  background-color: #692ba0; /* Hover background color for Event Delete button */
+  border-color: #692ba0; /* Hover border color for Event Delete button */
+  color: white; /* Hover text color for Event Delete button */
+}
+
+/* Slot Modal Styling */
+.slot-modal .ant-modal-header {
+  background-color: #1f4ba6; /* Dark blue background color for Slot Modal header */
+}
+
+.slot-modal .ant-modal-body {
+  background-color: #b2e0b2; /* Slot Modal body background color */
+}
+
+.slot-modal .ant-btn-danger {
+  background-color: #e84a4a; /* Dark blue background color for Slot Delete button */
+  border-color: #ec4444; /* Dark blue border color for Slot Delete button */
+  color: white; /* Text color for Slot Delete button */
+}
+
+.slot-modal .ant-btn-danger:hover {
+  background-color: #c93636; /* Hover background color for Slot Delete button */
+  border-color: #cc4646; /* Hover border color for Slot Delete button */
+  color: white; /* Hover text color for Slot Delete button */
+}

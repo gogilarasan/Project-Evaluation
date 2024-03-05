@@ -1,0 +1,122 @@
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .dashboard-navbar {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .top-menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001529;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .website-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .signout-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-navbar {
+    background-color: #001529;
+    color: white;
+  }
+  
+  .ant-menu-item {
+    color: white;
+  }
+  
+  .ant-menu-item-selected {
+    background-color: #1890ff;
+  }
+  
+  .c-container {
+    padding: 20px;
+  }
+  
+
+  .ant-layout-sider {
+    background-color: #001529;
+    color: white;
+  }
+  
+  .ant-layout-sider-trigger {
+    background-color: #001529;
+    color: white;
+  }
+  
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: none;
+  }
+  
+  .ant-menu-item, .ant-menu-submenu-title {
+    padding-left: 20px !important;
+  }
+  
+
+.dashboard-navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.top-menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #001529;
+  color: #fff;
+}
+
+
+.website-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.signout-button {
+  display: flex;
+  align-items: center;
+}
+
+
+.dashboard-sider {
+  background-color: #fff;
+}
+
+
+.left-navbar {
+  border-right: none;
+}
+
+.layout-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+
+.c-container {
+  padding: 20px;
+  background-color: #f0f2f5;
+  flex-grow: 1;
+  overflow-y: auto;
+}

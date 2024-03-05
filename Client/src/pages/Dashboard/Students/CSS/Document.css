@@ -1,0 +1,92 @@
+/* Document.module.css */
+
+
+  
+  .ddc {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a card-like effect */
+  }
+  
+  .drive-link-forms {
+    margin-top: 20px;
+  }
+  
+  .form-groupss {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Blue border color on focus */
+  }
+  
+  .link-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff; /* Blue color for icons */
+  }
+  
+  .submit-btnss {
+    background-color: #007bff; /* Blue background color for the submit button */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btnss:disabled {
+    background-color: #ccc; /* Gray background color for disabled button */
+    cursor: not-allowed;
+  }
+  
+  /* Toast styles */
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for toast */
+  }
+  
+  .success-toast {
+    background-color: #4CAF50; /* Green background for success toast */
+    color: #fff; /* White text color */
+  }
+  
+  .error-toast {
+    background-color: #f44336; /* Red background for error toast */
+    color: #fff; /* White text color */
+  }
+  
+  .toast-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Disabled class for button */
+  .disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,225 @@
+
+  .options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .option:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .option-circular {
+    color: #3498db;
+    border: 2px solid #3498db;
+  }
+  
+  .option-message {
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+  }
+  
+  .option-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .option span {
+    font-size: 16px;
+  }
+  
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .cs {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .dashboard-welcome {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dashboard-instructions {
+  font-size: 16px;
+  color: #555;
+}
+
+.instruction-list {
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.instruction-list li {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.instruction-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+  
+
+.circulars,
+.messages {
+  margin-top: 20px;
+}
+
+.ce h2{
+  font-size: 25px;
+  color: #000000;
+}
+
+.circulars h4,
+.messages h4 {
+  font-size: 25px;
+}
+
+.circulars h3,
+.messages h3 {
+  font-size: 25px;
+  color: #000000;
+}
+
+.circular,
+.message {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.circular-icon,
+.message-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.circular-info,
+.message-info {
+  margin-top: 10px; 
+}
+
+.colored-icon {
+  color: #122df3;
+}
+
+
+.pdf-delete-buttons {
+  margin-top: 10px; 
+}
+
+.pdf-button,
+.delete-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.pdf-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+  
+ 
+  @media (max-width: 960px) {
+    .c {
+      padding: 10px;
+    }
+  
+    .options {
+      flex-direction: column;
+    }
+  
+    .button {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .cs {
+      padding: 15px;
+    }
+  
+    .pdf-viewer iframe {
+      height: 300px;
+    }
+  }

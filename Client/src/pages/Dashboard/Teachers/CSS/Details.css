@@ -1,0 +1,119 @@
+/* Dashboard title */
+.custom-dashboard-title {
+  font-size: 26px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #333;
+  color: #333;
+}
+
+/* Student selector container */
+.custom-student-selector {
+  margin: 20px 0;
+}
+
+.custom-label-text {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.custom-select-box {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+/* Tabs container */
+.divd {
+  margin-top: 30px;
+}
+
+/* Tabs styles */
+.ant-tabs {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+
+/* Tab title styles */
+.ant-tabs-tab {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #333;
+}
+
+/* Custom card styles */
+.custom-card {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 30px 0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Link type selector container */
+.link-type-selector {
+  margin: 30px 0;
+}
+
+/* Link type selector label */
+.link-type-selector label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Link type selector dropdown */
+.link-type-selector select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+/* Advanced styles for your content */
+/* Add custom styles as needed */
+
+/* Responsive design for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .custom-dashboard-container {
+    padding: 16px;
+  }
+
+  .custom-dashboard-title {
+    font-size: 22px;
+  }
+
+  .custom-label-text {
+    font-size: 16px;
+  }
+
+  .custom-select-box {
+    font-size: 14px;
+  }
+
+  .ant-tabs-tab {
+    font-size: 18px;
+  }
+
+  .custom-card {
+    padding: 16px;
+  }
+
+  .link-type-selector label {
+    font-size: 16px;
+  }
+
+  .link-type-selector select {
+    font-size: 14px;
+  }
+}
